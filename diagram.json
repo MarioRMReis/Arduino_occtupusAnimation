@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "author": "Mário Reis",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno1", "top": 213.6, "left": 184.99, "attrs": {} },
+    {
+      "type": "wokwi-max7219-matrix",
+      "id": "matrix1",
+      "top": 60,
+      "left": 7,
+      "attrs": { "chain": "1" }
+    }
+  ],
+  "connections": [
+    [ "uno1:5V", "matrix1:V+", "red", [ "v0" ] ],
+    [ "matrix1:GND", "uno1:GND.1", "black", [ "h0" ] ],
+    [ "matrix1:DIN", "uno1:11", "green", [ "h0" ] ],
+    [ "matrix1:CS", "uno1:10", "green", [ "h220.8", "v115.2" ] ],
+    [ "matrix1:CLK", "uno1:13", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
