@@ -14,13 +14,13 @@ This project demonstrates how to create animations on an 8x8 LED matrix using th
 The animation consists of three states (frames) that cycle continuously. Below are the frames:
 
 ### State 1
-![State 1](assets/state1.png)
+![State 1](assets/State_1.png)
 
 ### State 2
-![State 2](assets/state2.png)
+![State 2](assets/State_2.png)
 
 ### State 3
-![State 3](assets/state3.png)
+![State 3](assets/State_3.png)
 
 ---
 
@@ -28,7 +28,7 @@ The animation consists of three states (frames) that cycle continuously. Below a
 
 To set up the hardware, follow the circuit diagram below:
 
-![Circuit Diagram](assets/circuit.png)
+![Circuit Diagram](assets/Circuit.png)
 
 ### Components:
 - **8x8 LED Matrix**
